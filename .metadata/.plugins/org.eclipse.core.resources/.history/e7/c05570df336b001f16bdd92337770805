@@ -1,0 +1,7 @@
+package com.gymSystem.gymSystemProject.db;
+
+public interface DAO {
+	void createConnection();
+	void closeConnection();
+
+}

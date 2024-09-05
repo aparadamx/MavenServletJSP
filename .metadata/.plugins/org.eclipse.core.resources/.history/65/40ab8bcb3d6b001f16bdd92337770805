@@ -1,0 +1,12 @@
+package com.gymSystem.gymSystemProject.db;
+
+import model.Instructor;
+
+public interface DAO {
+	void createConnection();
+	void closeConnection();
+	
+	//Declare methods Instructor
+	void createInstructor(Instructor instructor);
+	void updateInstructor(Instructor instructor);
+}

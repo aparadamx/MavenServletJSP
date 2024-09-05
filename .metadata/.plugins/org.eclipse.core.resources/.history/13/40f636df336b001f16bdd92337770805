@@ -1,0 +1,49 @@
+package com.gymSystem.gymSystemProject.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DB implements DAO{
+	Connection connection;
+	final String TAG = "[" + getClass().getSimpleName() + "]";
+	
+	public DB() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println(TAG + "Driver loadded");
+		} catch (Exception e) {
+			System.out.println("Exception Ocurred" + e);
+		}
+		
+	}
+
+	@Override
+	public void createConnection() {
+		try {
+			String user = "zumba";
+			String password = "password";
+			String url = "jdbc:mysql://localhost/zumbaSystem";
+			
+			connection = DriverManager.getConnection(url, user, password);
+			System.out.println(TAG + "Connetion created");
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+	}
+
+	@Override
+	public void closeConnection() {
+		try {
+			connection.close();
+			System.out.println(TAG + "Connection closed ");
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

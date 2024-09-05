@@ -1,0 +1,40 @@
+Create tables of DB
+
+CREATE TABLE gym_instructors (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE sessions (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    instructor_id BIGINT,
+    session_type VARCHAR(255) NOT NULL,
+    session_time VARCHAR(255) NOT NULL,
+    FOREIGN KEY (instructor_id) REFERENCES gym_instructors(id)
+);
+
+CREATE TABLE participants (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    session_id BIGINT,
+    FOREIGN KEY (session_id) REFERENCES sessions(id)
+);
+
+
+
+1. Create
+Insert a new gym instructor:
+INSERT INTO gym_instructors (name) VALUES ('Instructor Name');
+
+Insert a new session:
+INSERT INTO sessions (instructor_id, session_type, session_time) 
+VALUES (1, 'Zumba', 'Morning');
+
+Insert a new participant:
+INSERT INTO participants (name, session_id) 
+VALUES ('Participant Name', 1);
+
+2. Read
+
+Select all gym instructors:
+SELECT * FROM gym_instructors;

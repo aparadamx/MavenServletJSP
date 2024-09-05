@@ -1,0 +1,17 @@
+package com.gymSystem.gymSystemProject;
+
+import com.gymSystem.gymSystemProject.db.DB;
+
+/**
+ * Hello world!
+ */
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Welcome to Customer Management System");
+        System.out.println("Connecting to DB");
+        
+        DB db = new DB();
+        db.createConnection();
+        db.closeConnection();
+    }
+}
