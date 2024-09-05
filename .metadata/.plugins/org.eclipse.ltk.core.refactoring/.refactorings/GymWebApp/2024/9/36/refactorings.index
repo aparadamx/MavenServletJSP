@@ -1,0 +1,13 @@
+1725521957541	Delete element
+1725522054798	Rename resource '"web.xml"'
+1725522107096	Delete element
+1725522108693	Move 'MANIFEST.MF' to 'WEB-INF'
+1725522658722	Move 'index.html' to 'webapp'
+1725523833537	Move 'doPostServlet.html' to 'webapp'
+1725523874411	Move 'doDeleteServlet.html' to 'webapp'
+1725528896203	Rename package 'com.gymSystem.db'
+1725529031292	Rename package 'com.gymSystem.DB'
+1725529045283	Rename type 'db'
+1725529197454	Delete element
+1725562267144	Move 'doPost.jsp' to 'webapp'
+1725562483781	Rename resource 'doDeleted.jsp'

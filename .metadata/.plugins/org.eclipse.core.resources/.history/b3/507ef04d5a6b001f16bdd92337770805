@@ -1,0 +1,10 @@
+ <servlet>
+    <servlet-name>MyclassReader</servlet-name>
+    <servlet-class>com.path.way.MyclassReader</servlet-class>
+    <load-on-startup>9</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MyclassReader</servlet-name>
+    <url-pattern>/myclass/*</url-pattern>
+  </servlet-mapping>

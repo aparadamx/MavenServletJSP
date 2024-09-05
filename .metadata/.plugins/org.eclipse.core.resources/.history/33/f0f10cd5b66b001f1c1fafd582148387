@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>GymWebApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CreateParticipantServlet</display-name>
+    <servlet-name>CreateParticipantServlet</servlet-name>
+    <servlet-class>com.gymSystem.CreateParticipantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateParticipantServlet</servlet-name>
+    <url-pattern>/CreateParticipantServlet</url-pattern>
+    <url-pattern>/CreateParticipant</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreateParticipantConroller</display-name>
+    <servlet-name>CreateParticipantConroller</servlet-name>
+    <servlet-class>com.gymSystem.controller.CreateParticipantConroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateParticipantConroller</servlet-name>
+    <url-pattern>/CreateParticipantConroller</url-pattern>
+    <url-pattern>/ParticipanController</url-pattern>
+  </servlet-mapping>
+</web-app>

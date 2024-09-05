@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>doPost using ServLet</title>
+</head>
+<body>
+	<h3 style="text-align:center">Create new participant</h3><br><br>
+	<div style="text-align:center">
+		<form action="CreateParticipant">
+			<b>Name: </b><br>
+			<input type="text" name="txtName" placeholder="eg: jhon"><br>
+			<input type="submit" value="Create"> 
+		</form>
+	</div>
+</body>
+</html>
