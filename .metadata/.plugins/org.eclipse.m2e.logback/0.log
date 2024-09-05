@@ -1289,3 +1289,23 @@
 2024-09-05 12:54:44,417 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/main/resources
 2024-09-05 12:54:44,429 [Worker-114: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-09-05 12:54:44,431 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/test/resources
+2024-09-05 13:12:14,802 [Worker-124: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:12:14,814 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/main/resources
+2024-09-05 13:12:14,821 [Worker-124: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:12:14,822 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/test/resources
+2024-09-05 13:25:38,771 [Worker-126: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:25:38,781 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/main/resources
+2024-09-05 13:25:38,789 [Worker-126: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:25:38,790 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/test/resources
+2024-09-05 13:30:21,768 [Worker-121: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:30:21,786 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/main/resources
+2024-09-05 13:30:21,794 [Worker-121: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:30:21,795 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/test/resources
+2024-09-05 13:36:01,950 [Worker-121: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:36:01,968 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/main/resources
+2024-09-05 13:36:01,974 [Worker-121: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:36:01,975 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/test/resources
+2024-09-05 13:36:55,539 [Worker-130: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:36:55,541 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/main/resources
+2024-09-05 13:36:55,545 [Worker-130: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-05 13:36:55,546 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/alexparadamx/simpleLearning/projectFinal/GymWebApp/src/test/resources

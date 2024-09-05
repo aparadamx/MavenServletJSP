@@ -22,7 +22,6 @@ INDEX VERSION 1.134+/Users/alexparadamx/simpleLearning/projectFinal/.metadata/.p
 566592929.index
 268993864.index
 3946320053.index
-1631971772.index
 1334601017.index
 1922945289.index
 1388332719.index
