@@ -22,45 +22,19 @@ CREATE TABLE participants (
 
 
 
-1. Create Instructor
+1. Create
 Insert a new gym instructor:
 INSERT INTO gym_instructors (name) VALUES ('Instructor Name');
 
+Insert a new session:
+INSERT INTO sessions (instructor_id, session_type, session_time) 
+VALUES (1, 'Zumba', 'Morning');
+
+Insert a new participant:
+INSERT INTO participants (name, session_id) 
+VALUES ('Participant Name', 1);
+
+2. Read
+
 Select all gym instructors:
 SELECT * FROM gym_instructors;
-
-**********Create session***************
-
-insert into
-  sessions (instructor_id, session_type, session_time)
-values
-  (
-    (
-      select
-        id
-      from
-        gym_instructors
-      where
-        name = 'Yamin'
-    ),
-    'Zumba',
-    'Afternoon'
-  );
-  
-**********Create participants**********
-
-insert into
-  participants (name, session_id)
-values
-  (
-    'angel',
-    (
-      select
-        id
-      from
-        sessions
-      where
-        session_type = 'Zumba'
-        and session_time = 'Afternoon'
-    )
-  );

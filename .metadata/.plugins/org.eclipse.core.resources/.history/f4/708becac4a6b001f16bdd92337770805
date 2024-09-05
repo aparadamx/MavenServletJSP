@@ -12,10 +12,11 @@ public class App {
         System.out.println("Welcome to Customer Management System");
         
         Instructor instructor = new Instructor();
-        DB db = new DB();
+        
         instructor.setName("carlos");
         
-      /*  
+        
+        DB db = new DB();
         db.createConnection();
         db.createInstructor(instructor);
         db.closeConnection();
@@ -34,10 +35,5 @@ public class App {
         db.createConnection();
         db.getAllInstructor();
         db.closeConnection();  
-       */
-        
-        db.createConnection();
-        db.executeTransactionsBatch();
-        db.closeConnection(); 
     }
 }

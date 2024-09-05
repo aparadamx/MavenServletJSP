@@ -13,9 +13,4 @@ public interface DAO {
 	void updateInstructor(int id, String name);
 	void deletedInstructor(int id);
 	ArrayList<Instructor> getAllInstructor();
-	
-	
-	//Declare methods Session
-	void executeTransactionsBatch();
-	
 }

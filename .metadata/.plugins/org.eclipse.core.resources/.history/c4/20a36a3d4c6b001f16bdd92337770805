@@ -63,4 +63,5 @@ values
         session_type = 'Zumba'
         and session_time = 'Afternoon'
     )
+  )
   );

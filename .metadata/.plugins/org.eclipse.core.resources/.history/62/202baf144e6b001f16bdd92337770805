@@ -122,15 +122,30 @@ public class DB implements DAO{
 		try {
 			connection.setAutoCommit(false);
 			
-			String sql1 = "insert into participants (name, session_id) values('angel',(select id from sessions where session_type = 'Box' and session_time = 'Afternoon'))";		
+			String sql = "insert into participants (name, session_id) values('angel',(select id from sessions where"
+					+ " session_type = 'Box' and session_time = 'Afternoon'));";
+			
+			System.out.println(sql);
+			
+			String sql1 = "insert into"
+					+ "  participants (name, session_id)"
+					+ " values"
+					+ "  ("
+					+ "    'angel',"
+					+ "    ("
+					+ "select"
+					+ "        id"
+					+ "      from"
+					+ "        sessions"
+					+ "      where"
+					+ "        session_type = 'Box'"
+					+ "        and session_time = 'Afternoon'"
+					+ "    )"
+					+ "  );";
 			System.out.println(sql1);
 			
-
-			String sql2 = "insert into participants (name, session_id) values('angel',(select id from sessions where session_type = 'Box' and session_time = 'Afternoon'))";		
-			System.out.println(sql2);
-			
-			statement.addBatch(sql1);
-			statement.addBatch(sql2);
+			statement.addBatch(sql);
+			//statement.addBatch(sql1);
 			statement.executeBatch();
 			connection.commit();
 			System.out.println("Batch Execute and Transaction Committed");
